@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "609339472166",
+    "project_id": "kkariakoo-ad28e",
+    "storage_bucket": "kkariakoo-ad28e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609339472166:android:14d6bb7d90ab9a7ad1e9e7",
+        "android_client_info": {
+          "package_name": "com.application.yes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkQoSRN-IUhJRQ9FCl-NbCgN-alRHp5XE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

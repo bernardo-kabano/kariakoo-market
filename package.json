@@ -1,0 +1,27 @@
+{
+  "name": "kariakoo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "./node/node-v22.18.0-win-x64/npm.cmd run build && ./node/node-v22.18.0-win-x64/npx.cmd firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.15.0",
+    "firebase": "^10.11.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.57.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.11.0",
+    "firebase-tools": "^15.24.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.21"
+  }
+}
