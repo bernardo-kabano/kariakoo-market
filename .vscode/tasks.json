@@ -2,10 +2,10 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run Kariakoo Dev Server",
+      "label": "Run Kariakoo PHP Server",
       "type": "shell",
-      "command": "./node/node-v22.18.0-win-x64/npm.cmd",
-      "args": ["run", "dev", "--", "--host", "0.0.0.0"],
+      "command": ".\\php\\php.exe",
+      "args": ["-S", "localhost:8000"],
       "isBackground": true,
       "problemMatcher": [],
       "runOptions": {
